@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Social media dashboard with theme switcher | Frontend Mentor</title>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+
+</head>
+<body>
+
+  <div class="background-top"></div>
+
+  <div class="wrapper">
+
+    <header class="header">
+      <div class="text-area">
+        <h1 class="text-area__title">Social Media Dashboard</h1>
+        <span class="text-area__info">Total Followers: 23,004</span>
+      </div>
+      <div class="mode">
+        <span class="mode__text">Dark Mode</span>
+        <label class="switcher">
+          <input type="checkbox">
+          <div class="switcher__slider"></div>
+        </label>
+      </div>
+    </header>
+  
+    <main class="content">
+      <section class="overview overview_summary">
+
+        <div class="card card_big card_facebook">
+          <div class="card__border"></div>
+          <div class="social-media-profile">
+            <img src="./images/icon-facebook.svg" alt="facebook-icon">
+            <span class="social-media-profile__username">@nathanf</span>
+          </div>
+          <span class="card__quantity">1987</span>
+          <span class="card__description">FOLLOWERS</span>
+          <div class="difference">
+            <img src="./images/icon-up.svg" alt="positive change">
+            <span class="difference__quantity difference__quantity_positive">12 Today</span>
+          </div>
+        </div>
+
+        <div class="card card_big card_twitter">
+          <div class="card__border"></div>
+          <div class="social-media-profile">
+            <img src="./images/icon-twitter.svg" alt="twitter-icon">
+            <span class="social-media-profile__username">@nathanf</span>
+          </div>
+          <span class="card__quantity">1044</span>
+          <span class="card__description">FOLLOWERS</span>
+          <div class="difference">
+            <img src="./images/icon-up.svg" alt="positive change">
+            <span class="difference__quantity difference__quantity_positive">99 Today</span>
+          </div>
+        </div>
+
+        <div class="card card_big card_instagram">
+          <div class="card__border"></div>
+          <div class="social-media-profile">
+            <img src="./images/icon-instagram.svg" alt="instagram-icon">
+            <span class="social-media-profile__username">@realnathanf</span>
+          </div>
+          <span class="card__quantity">11k</span>
+          <span class="card__description">FOLLOWERS</span>
+          <div class="difference">
+            <img src="./images/icon-up.svg" alt="positive change">
+            <span class="difference__quantity difference__quantity_positive">1099 Today</span>
+          </div>
+        </div>
+
+        <div class="card card_big card_youtube">
+          <div class="card__border"></div>
+          <div class="social-media-profile">
+            <img src="./images/icon-youtube.svg" alt="youtube-icon">
+            <span class="social-media-profile__username">Nathan F.</span>
+          </div>
+          <span class="card__quantity">8239</span>
+          <span class="card__description">SUBSCRIBERS</span>
+          <div class="difference">
+            <img src="./images/icon-down.svg" alt="negative change">
+            <span class="difference__quantity difference__quantity_negative">1099 Today</span>
+          </div>
+        </div>
+  
+      </section>
+
+      <h2>Overview - Today</h2>
+  
+      <section class="overview overview_today">
+  
+        <div class="card card_small">
+          <span class="card__property to-corner">Page Views</span>
+          <div class="social-media-profile to-corner">
+            <img src="./images/icon-facebook.svg" alt="facebook-icon">
+          </div>
+          <span class="card__number to-corner">87</span>
+          <div class="difference to-corner">
+            <img src="./images/icon-up.svg" alt="positive change">
+            <span class="difference__quantity difference__quantity_positive">3%</span>
+          </div>
+        </div>
+
+        <div class="card card_small">
+          <span class="card__property to-corner">Likes</span>
+          <div class="social-media-profile to-corner">
+            <img src="./images/icon-facebook.svg" alt="facebook-icon">
+          </div>
+          <span class="card__number to-corner">52</span>
+          <div class="difference to-corner">
+            <img src="./images/icon-down.svg" alt="negative change">
+            <span class="difference__quantity difference__quantity_negative">2%</span>
+          </div>
+        </div>
+
+        <div class="card card_small">
+          <span class="card__property to-corner">Likes</span>
+          <div class="social-media-profile to-corner">
+            <img src="./images/icon-instagram.svg" alt="instagram-icon">
+          </div>
+          <span class="card__number to-corner">5462</span>
+          <div class="difference to-corner">
+            <img src="./images/icon-up.svg" alt="positive change">
+            <span class="difference__quantity difference__quantity_positive">2257%</span>
+          </div>
+        </div>
+
+        <div class="card card_small">
+          <span class="card__property to-corner">Profile Views</span>
+          <div class="social-media-profile to-corner">
+            <img src="./images/icon-instagram.svg" alt="instagram-icon">
+          </div>
+          <span class="card__number to-corner">52k</span>
+          <div class="difference to-corner">
+            <img src="./images/icon-up.svg" alt="positive change">
+            <span class="difference__quantity difference__quantity_positive">1375%</span>
+          </div>
+        </div>
+
+        <div class="card card_small">
+          <span class="card__property to-corner">Retweets</span>
+          <div class="social-media-profile to-corner">
+            <img src="./images/icon-twitter.svg" alt="twitter-icon">
+          </div>
+          <span class="card__number to-corner">117</span>
+          <div class="difference to-corner">
+            <img src="./images/icon-up.svg" alt="positive change">
+            <span class="difference__quantity difference__quantity_positive">303%</span>
+          </div>
+        </div>
+  
+        <div class="card card_small">
+          <span class="card__property to-corner">Likes</span>
+          <div class="social-media-profile to-corner">
+            <img src="./images/icon-twitter.svg" alt="twitter-icon">
+          </div>
+          <span class="card__number to-corner">507</span>
+          <div class="difference to-corner">
+            <img src="./images/icon-up.svg" alt="positive change">
+            <span class="difference__quantity difference__quantity_positive">553%</span>
+          </div>
+        </div>
+
+        <div class="card card_small">
+          <span class="card__property to-corner">Likes</span>
+          <div class="social-media-profile to-corner">
+            <img src="./images/icon-youtube.svg" alt="youtube-icon">
+          </div>
+          <span class="card__number to-corner">107</span>
+          <div class="difference to-corner">
+            <img src="./images/icon-down.svg" alt="negative change">
+            <span class="difference__quantity difference__quantity_negative">19%</span>
+          </div>
+        </div>
+
+        <div class="card card_small">
+          <span class="card__property to-corner">Total Views</span>
+          <div class="social-media-profile to-corner">
+            <img src="./images/icon-youtube.svg" alt="youtube-icon">
+          </div>
+          <span class="card__number to-corner">1407</span>
+          <div class="difference to-corner">
+            <img src="./images/icon-down.svg" alt="negative change">
+            <span class="difference__quantity difference__quantity_negative">12%</span>
+          </div>
+        </div>
+  
+      </section>
+    </main>
+    
+    <div class="attribution">
+      <span class="attribution__challenge">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</span> 
+      <span class="attribution__author">Coded by <a href="https://twitter.com/a8savu">Alex Dymov</a>.</span>
+    </div>
+
+  </div>
+  
+  <script src="./script.js"></script>
+</body>
+</html>
