@@ -303,6 +303,16 @@ h2 {
     color: var(--maincolor);
 }
 
+@media (max-height: 700px) {
+    body {
+        height: 100%;
+    }
+
+    .overview_today {
+        margin-bottom: 40px;
+    }
+}
+
 @media screen and (max-width: 680px) {
     body {
         height: 100%;
@@ -344,6 +354,10 @@ h2 {
     .overview {
         grid-template-columns: 1fr;
         justify-items: center;
+    }
+
+    .overview_today {
+        margin-bottom: 0;
     }
 
     .card {
